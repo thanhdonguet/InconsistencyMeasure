@@ -41,7 +41,7 @@
 
   </head>
   <body>
-    <h1>Hello JSP</h1>
+    <h1>Measure Inconsistency of Probabilistic Knowledge Base</h1>
     <form action="/Servlet" method="post" enctype="multipart/form-data">
       Upload Knowledge Base:  <input type="file" name="uploadedFile" />
       <button type="submit">Calculate</button>

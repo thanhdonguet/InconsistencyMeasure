@@ -11,7 +11,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @WebServlet("/Servlet")
 @MultipartConfig
@@ -49,56 +52,58 @@ public class Servlet extends HttpServlet {
         int i = Integer.valueOf(selectedvalue);
         String measurename = "";
         double measurevalue = 0;
+
+        Map<KnowledgeBase, Result> resultMap = new HashMap<>();
         for (KnowledgeBase k : kbs) {
-            System.out.println(k);
+
             switch (i) {
                 case 1:
-                    measurename = "Drastic Inconsistency Measure: ";
+                    measurename = "Drastic Inconsistency Measure";
                     measurevalue = Calculation.DrasticIM(k);
                     break;
                 case 2:
-                    measurename = "MI Inconsistency Measure: ";
+                    measurename = "MI Inconsistency Measure";
                     measurevalue = Calculation.MIIM(k);
                     break;
                 case 3:
-                    measurename = "SMI-c Inconsistency Measure: ";
+                    measurename = "SMI-c Inconsistency Measure";
                     measurevalue = Calculation.SMIcIM(k);
                     break;
                 case 4:
-                    measurename = "l-Inconsistency Measure: ";
+                    measurename = "l-Inconsistency Measure";
                     measurevalue = Calculation.lIM(k);
                     break;
                 case 5:
-                    measurename = "X-Inconsistency Measure: ";
+                    measurename = "X-Inconsistency Measure";
                     measurevalue = Calculation.XIM(k);
                     break;
                 case 6:
-                    measurename = "μ-Inconsistency Measure: ";
+                    measurename = "μ-Inconsistency Measure";
                     measurevalue = Calculation.μIM(k);
                     break;
                 case 7:
-                    measurename = "DM Inconsistency Measure: ";
+                    measurename = "DM Inconsistency Measure";
                     measurevalue = Calculation.DMIM(k,kc,norm);
                     break;
                 case 8:
-                    measurename = "SUM Inconsistency Measure: ";
+                    measurename = "SUM Inconsistency Measure";
                     measurevalue = Calculation.SUMIM(k,kc,norm);
                     break;
                 case 9:
-                    measurename = "Shapley Inconsistency Value: ";
+                    measurename = "Shapley Inconsistency Value";
                     measurevalue = Calculation.ProbalilisticShapley(k,number);
                     break;
                 case 10:
-                    measurename = "SV-Inconsistency Measure: ";
+                    measurename = "SV-Inconsistency Measure";
                     measurevalue = Calculation.SVIM(k);
                     break;
             }
+            Result result = new Result(measurename, measurevalue);
+            resultMap.put(k, result);
         }
-        Result result = new Result();
-        result.setMeasurename(measurename);;
-        result.setMeasurevalue(measurevalue);
-        response.getWriter().write(String.valueOf(result));
-        request.setAttribute(attribute name,attribute value)
 
+        System.out.println(resultMap);
+        request.setAttribute("resultMap", resultMap);
+        request.getRequestDispatcher("/result.jsp").forward(request, response);
     }
 }

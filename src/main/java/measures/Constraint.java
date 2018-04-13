@@ -45,9 +45,6 @@ public class Constraint {
 
     @Override
     public String toString() {
-        return "measures.Constraint{" +
-                "statement='" + statement + '\'' +
-                ", probability=" + probability +
-                '}';
+        return statement + ":" + probability;
     }
 }

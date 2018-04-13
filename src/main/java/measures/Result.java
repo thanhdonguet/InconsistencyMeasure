@@ -20,7 +20,7 @@ public class Result {
         this.measurevalue = measurevalue;
     }
 
-    public Result() {
+    public Result(String measurename, double measurevalue) {
         this.measurename = measurename;
         this.measurevalue = measurevalue;
     }

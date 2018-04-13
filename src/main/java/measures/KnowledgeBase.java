@@ -43,8 +43,6 @@ public class  KnowledgeBase {
     }
     @Override
     public String toString() {
-        return "measures.KnowledgeBase{" +
-                "constraints=" + constraints +
-                '}';
+        return constraints.toString();
     }
 }
