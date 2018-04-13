@@ -7,25 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f57106e7-77e8-45ac-a8a3-07e46c7e8315" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InconsistencyMeasure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InconsistencyMeasure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Constraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Constraint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/KnowledgeBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/KnowledgeBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Result.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/servlets/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/servlets/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/measures/Constraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/measures/Constraint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/measures/KnowledgeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/measures/KnowledgeBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/measures/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/measures/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/measures/Constraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/measures/Constraint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/measures/KnowledgeBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/measures/KnowledgeBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/measures/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/measures/Result.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/servlets/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="-639">
               <caret line="40" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="46" />
             </state>
           </provider>
@@ -59,11 +35,20 @@
       <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="35" />
+            <state relative-caret-position="281">
+              <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="159" column="40" lean-forward="true" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -77,10 +62,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/measures/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
+            <state relative-caret-position="400">
               <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#142#143#0" expanded="true" />
@@ -99,7 +96,7 @@
       <file leaf-file-name="result.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="300">
               <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
             </state>
           </provider>
@@ -136,19 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constraint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Constraint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -175,15 +159,15 @@
         <option value="$PROJECT_DIR$/src/main/java/servlets/NameServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/measures/Function.java" />
-        <option value="$PROJECT_DIR$/src/main/java/measures/Calculation.java" />
         <option value="$PROJECT_DIR$/src/main/java/measures/Constraint.java" />
         <option value="$PROJECT_DIR$/src/main/java/measures/KnowledgeBase.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/measures/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
         <option value="$PROJECT_DIR$/web/result.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/measures/Calculation.java" />
       </list>
     </option>
   </component>
@@ -570,12 +554,12 @@
       <workItem from="1523538461053" duration="12149000" />
       <workItem from="1523607106235" duration="1342000" />
       <workItem from="1523616260710" duration="259000" />
-      <workItem from="1523625489488" duration="15223000" />
+      <workItem from="1523625489488" duration="15948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49170000" />
+    <option name="totallyTimeSpent" value="49895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -600,7 +584,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3290938" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37678856" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37678856" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.23174603" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -942,23 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/measures/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1011,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/measures/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
+        <state relative-caret-position="400">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
@@ -1026,27 +993,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="300">
           <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="-639">
           <caret line="40" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="159" column="40" lean-forward="true" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="40" />
         </state>
       </provider>
     </entry>

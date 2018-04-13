@@ -102,7 +102,6 @@ public class Servlet extends HttpServlet {
             resultMap.put(k, result);
         }
 
-        System.out.println(resultMap);
         request.setAttribute("resultMap", resultMap);
         request.getRequestDispatcher("/result.jsp").forward(request, response);
     }
