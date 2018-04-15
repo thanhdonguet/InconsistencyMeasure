@@ -9,6 +9,7 @@
 <html>
   <head>
     <title>Inconsistency Measure</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="${pageContext.request.contextPath}/resources/js/jquery-3.3.1.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -39,11 +40,12 @@
         })
     </script>
 
+
   </head>
   <body>
     <h1>Measure Inconsistency of Probabilistic Knowledge Base</h1>
     <form action="/Servlet" method="post" enctype="multipart/form-data">
-      Upload Knowledge Base:  <input type="file" name="uploadedFile" />
+      Upload Knowledge Base:  <input type="file" name="uploadedFile"/>
       <button type="submit">Calculate</button>
 
     <select id="code" name="code">
@@ -61,12 +63,12 @@
     </select>
     <div id="kbInput">
         <label>Input Knowledge Base:</label>
-        <input type="text" name="kbInput"/>
+        <input type="text" name="kbInput" placeholder="e.g A:0.6 D:0.25 A|D:0.8"/>
     </div>
 
     <div id="normInput">
         <label>Input norm</label>
-        <input type="text" name="normInput"/>
+        <input type="text" name="normInput" placeholder="1,2,..."/>
     </div>
 
     <div id="numInput">
