@@ -2,18 +2,42 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="InconsistencyMeasure:war exploded" />
+      <artifact name="unnamed" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f57106e7-77e8-45ac-a8a3-07e46c7e8315" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_datumbox_lpsolve_5_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/measures/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/InconsistencyMeasure_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InconsistencyMeasure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InconsistencyMeasure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Calculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Constraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/KnowledgeBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/KnowledgeBaseReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/measures/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/servlets/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/classes/util/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/resources/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/InconsistencyMeasure_war_exploded/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/measures/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/measures/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/measures/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/measures/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/InconsistencyMeasure-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/measures/Calculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/measures/Calculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,93 +50,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/result.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1580">
-              <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+            <state relative-caret-position="298">
+              <caret line="102" column="49" lean-forward="true" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3080">
-              <caret line="161" column="62" selection-start-line="161" selection-start-column="62" selection-end-line="161" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4340">
-              <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnowledgeBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/measures/KnowledgeBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding>
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,17 +65,20 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="1040">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="Calculation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="105" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
+            <state relative-caret-position="404">
+              <caret line="220" column="22" lean-forward="true" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +88,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -162,18 +109,20 @@
         <option value="$PROJECT_DIR$/src/main/java/measures/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/NameServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/measures/Function.java" />
         <option value="$PROJECT_DIR$/src/main/java/measures/Constraint.java" />
         <option value="$PROJECT_DIR$/src/main/java/measures/KnowledgeBase.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/measures/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/measures/Calculation.java" />
         <option value="$PROJECT_DIR$/web/resources/css/styles.css" />
         <option value="$PROJECT_DIR$/web/styles.css" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/result.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/measures/Function.java" />
+        <option value="$PROJECT_DIR$/src/main/java/measures/LpSolveException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/measures/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/measures/Calculation.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
       </list>
     </option>
   </component>
@@ -208,11 +157,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-16" />
-    <option name="y" value="-9" />
-    <option name="width" value="1284" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="666" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,9 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,21 +207,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2045977" />
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
   </component>
   <component name="RecentsManager">
@@ -307,6 +255,17 @@
   <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="measures.Application" />
+      <module name="InconsistencyMeasure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="measures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="measures.Demo" />
       <module name="InconsistencyMeasure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -372,7 +331,7 @@
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="InconsistencyMeasure:war exploded">
+        <artifact name="unnamed">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -436,7 +395,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="InconsistencyMeasure:war exploded" />
+          <artifact name="unnamed" />
         </option>
       </method>
     </configuration>
@@ -502,11 +461,13 @@
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="JavaScript Debug.index.jsp" />
       <item itemvalue="Application.Function" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="JavaScript Debug.index.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Function" />
         <item itemvalue="JavaScript Debug.index.jsp" />
         <item itemvalue="Application.Application" />
@@ -533,41 +494,46 @@
       <workItem from="1523625489488" duration="15948000" />
       <workItem from="1523717407776" duration="612000" />
       <workItem from="1523725647109" duration="5584000" />
-      <workItem from="1523781704215" duration="5691000" />
+      <workItem from="1523781704215" duration="5754000" />
+      <workItem from="1523800125170" duration="1982000" />
+      <workItem from="1523802471513" duration="2724000" />
+      <workItem from="1523901204483" duration="8522000" />
+      <workItem from="1523933805978" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61782000" />
+    <option name="totallyTimeSpent" value="75698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3290938" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32936507" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.50236964" side_tool="true" weight="0.26587301" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3290938" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3290938" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32936507" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37678856" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40858504" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.2436508" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.2642857" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.50236964" side_tool="true" weight="0.26587301" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
@@ -616,76 +582,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2360">
-          <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3620">
-          <caret line="181" column="32" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Constraint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/KnowledgeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2360">
-          <caret line="118" column="45" lean-forward="true" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3620">
@@ -913,10 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,69 +833,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/1.txt" />
+    <entry file="file://$PROJECT_DIR$/web/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="340">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/measures/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="158">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
-          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3080">
-          <caret line="161" column="62" selection-start-line="161" selection-start-column="62" selection-end-line="161" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4340">
-          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="-795">
+          <caret line="152" column="36" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="420">
+          <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1000,17 +869,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/measures/LpSolveException.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="637" column="16" selection-start-line="637" selection-start-column="16" selection-end-line="637" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/lp_solve_5.5.2.5_java/lp_solve_5.5_java/lib/lpsolve55j.jar!/LpSolveTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/lp_solve_5.5.2.5_java/lp_solve_5.5_java/lib/lpsolve55j.jar!/Demo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/lp_solve_5.5.2.5_java/lp_solve_5.5_java/lib/lpsolve55j.jar!/lpsolve/LpSolve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/lp_solve_5.5.2.5_java/lp_solve_5.5_java/lib/lpsolve55j.jar!/lpsolve/LpSolveException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/datumbox/lpsolve/5.5.2.0/lpsolve-5.5.2.0.jar!/lpsolve/LpSolveException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/measures/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="220" column="22" lean-forward="true" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="102" column="49" lean-forward="true" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>InconsistencyMeasure:war exploded</last-edited>
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2045977" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1019,11 +972,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (InconsistencyMeasure)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20344828" />
               </list>
             </option>
           </splitter-proportions>
@@ -1058,8 +1011,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.20344828" />
               </list>
             </option>
           </splitter-proportions>
@@ -1082,7 +1034,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20344828" />
               </list>
             </option>
           </splitter-proportions>

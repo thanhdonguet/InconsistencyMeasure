@@ -223,13 +223,4 @@ public class Function {
         else
             return n * Factorial(n - 1);
     }
-
-
-//    public static void main(String[] args) throws Exception{
-//        Set<Integer> s = new HashSet<>();
-//        s.add(1);
-//        s.add(2);
-//        s.add(3);
-//        System.out.println(Sets.powerSet(s));
-//    }
 }

@@ -1,6 +1,7 @@
 package servlets;
 
 import com.sun.jdi.IntegerValue;
+import lpsolve.*;
 import measures.*;
 
 import javax.servlet.ServletException;
@@ -96,6 +97,10 @@ public class Servlet extends HttpServlet {
                 case 10:
                     measurename = "SV-Inconsistency Measure";
                     measurevalue = Calculation.SVIM(k);
+                    break;
+                case 11:
+                    measurename = "Unnormalized Inconsistency Measure";
+                    measurevalue = Calculation.UnIM(k);
                     break;
             }
             Result result = new Result(measurename, measurevalue);

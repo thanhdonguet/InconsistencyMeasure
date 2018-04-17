@@ -44,6 +44,14 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.datumbox/lpsolve -->
+        <dependency>
+            <groupId>com.datumbox</groupId>
+            <artifactId>lpsolve</artifactId>
+            <version>5.5.2.0</version>
+        </dependency>
+
+
 
     </dependencies>
 
