@@ -199,11 +199,7 @@ public class Function {
     }
 
     /**
-     * Split a Knowledge Base to subsets Knowledge Base using function powerSet in class Sets.class
-     * imported by Maven:
-     *             <groupId>com.google.guava</groupId>
-     *             <artifactId>guava</artifactId>
-     *             <version>24.1-jre</version>
+     * Split a Knowledge Base to subsets Knowledge Base using function powerSet in class Utils.class
      */
     public static List<KnowledgeBase> SplitKnowledgeBase(KnowledgeBase kb){
         List<KnowledgeBase> kbs = new ArrayList<>();

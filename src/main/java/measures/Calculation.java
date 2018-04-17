@@ -184,6 +184,10 @@ public class Calculation {
         return max;
     }
 
+    /**
+     * Unnormalized Inconsistency Measure
+     * Using the Solver
+     */
     public static double UnIM(KnowledgeBase k) {
         List<Constraint> cs = k.getConstraints();
         double p1 = cs.get(0).getProbability();
