@@ -7,10 +7,10 @@ import java.util.*;
 public class Function {
 
     /**
-     * Measure Inconsistency Degree of Two Elements measures.Constraint
+     * Measure Inconsistency Degree of Two Elements Constraint
      */
-    public static boolean InconsistentTwoElementsConstraint(KnowledgeBase cmp){
-        List<Constraint> cs = cmp.getConstraints();
+    public static boolean InconsistentTwoElementsConstraint(KnowledgeBase mis){
+        List<Constraint> cs = mis.getConstraints();
         if (cs.get(0).getStatement().equals(cs.get(1).getStatement())) {
             if (cs.get(0).getProbability() != (cs.get(1).getProbability()))
                 return true;
