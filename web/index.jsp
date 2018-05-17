@@ -52,12 +52,12 @@
       <option value="1">Drastic Inconsistency Measure</option>
       <option value="2">MI Inconsistency Measure</option>
       <option value="3">SMI-c Inconsistency Measure</option>
-      <option value="4">l-Inconsistency Measure</option>
+      <option value="4">ℓ-Inconsistency Measure</option>
       <option value="5">X-Inconsistency Measure</option>
       <option value="6">μ-Inconsistency Measure</option>
       <option value="7">DM Inconsistency Measure</option>
       <option value="8">SUM Inconsistency Measure</option>
-      <option value="9">Probabilistic Shapley Inconsisten Value</option>
+      <option value="9">Probabilistic Shapley Inconsistency Value</option>
       <option value="10">SV-Inconsistency Measure</option>
       <option value="11">Unnormalized Inconsistency Measure</option>
     </select>

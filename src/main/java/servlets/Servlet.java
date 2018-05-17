@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,9 +26,9 @@ public class Servlet extends HttpServlet {
 
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        Date time1 = new Date();
         String selectedvalue = request.getParameter("code");
         Part uploadedPath = request.getPart("uploadedFile");
-
 
 
         KnowledgeBaseReader reader = new KnowledgeBaseReader();
@@ -67,7 +70,7 @@ public class Servlet extends HttpServlet {
                     measurevalue = Calculation.SMIcIM(k);
                     break;
                 case 4:
-                    measurename = "l-Inconsistency Measure";
+                    measurename = "ℓ-Inconsistency Measure";
                     measurevalue = Calculation.lIM(k);
                     break;
                 case 5:
@@ -103,7 +106,11 @@ public class Servlet extends HttpServlet {
             resultMap.put(k, result);
         }
 
+        Date time2 = new Date();
+        long time = time2.getTime()-time1.getTime();
+        System.out.println(time);
         request.setAttribute("resultMap", resultMap);
         request.getRequestDispatcher("/result.jsp").forward(request, response);
+
     }
 }
